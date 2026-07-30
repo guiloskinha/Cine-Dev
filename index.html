@@ -11,7 +11,7 @@
 <h1> cinedev</h1>
 <h2>Catalago Avancado de Midias</h2>
 <div id="mensagemErro"></div>
-</div>
+
 <form id="midiaForm">
     <select id="selectTipo"> 
         <option value="filme">Filme</option>
@@ -23,7 +23,14 @@
     <input type="text" id="intupTrailer" placeholder="URL do Trailer (https://...)" required>
     <input type="number" id="inputTemporadas" placeholder="Numero de Temporadas" style="display: nome;">
     
+<button type="submit" id="btnCadastrar">Cadrastrar no Catalago</button>
 </form>
+
+<hr>
+
+<h2>Filmes e series Cadastrados</h2>
+ <div id="containerCatalago" class="grid-catalago"></div>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
